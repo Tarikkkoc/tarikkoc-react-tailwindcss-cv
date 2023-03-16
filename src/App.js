@@ -1,6 +1,7 @@
 import AboutMe from "./About/AboutMe";
 import "./App.css";
 import ContactMe from "./Contact/ContactMe";
+import Footer from "./Footer/Footer";
 import HireMe from "./HireMe.js/HireMe";
 import Info from "./Info/Info";
 import Navbar from "./Navbar/Navbar";
@@ -15,6 +16,7 @@ function App() {
       <Portfolio />
       <HireMe />
       <ContactMe />
+      <Footer />
     </div>
   );
 }

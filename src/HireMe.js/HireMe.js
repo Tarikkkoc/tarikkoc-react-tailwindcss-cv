@@ -16,14 +16,14 @@ const HireMe = () => {
   };
 
   return (
-    <div className="h-full w-full flex bg-blue-500">
-      <div className="w-1/2 grid place-items-center ">
+    <div className="h-full w-full hireMe flex bg-blue-500 pl-7 pr-7">
+      <div className="w-1/2 grid hire1 place-items-center ">
         <p className="font-serif text-3xl pt-2 text-white font-semibold">
           Want to work with me?
         </p>
         <p className="font-sans text-2xl text-zinc-100">You can contact me</p>
       </div>
-      <div className="w-1/2 grid place-items-center">
+      <div className="w-1/2 grid hire2 place-items-center">
         <button
           className="rounded-xl border-solid bg-white w-24 h-12 font-bold text-xl text-zinc-600 hover:bg-zinc-600 hover:text-white"
           onClick={clickHandler}

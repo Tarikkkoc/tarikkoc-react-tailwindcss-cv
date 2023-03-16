@@ -44,21 +44,21 @@ const ContactMe = () => {
   };
 
   return (
-    <div className="bg-stone-200 w-full h-full flex justify-center items-center">
-      <div className="mt-5 text-6xl w-1/2 grid place-items-center font-bold text-gray-600 font-sans my-2">
+    <div className="bg-stone-200 w-full h-full flex flex-col justify-center items-center p-2">
+      <div className="mt-5 contactHeader text-6xl w-1/2 grid place-items-center font-bold text-gray-600 font-sans my-2">
         <h1>Contact</h1>
       </div>
       <form className="w-1/2" onSubmit={clickHandler}>
-        <div className="mt-2 grid place-items-center">
+        <div className="mt-2 contactInputArea grid place-items-center">
           <input
-            className="h-60 bg-stone-100 w-3/5 text-base placeholder:px-2 placeholder:italic placeholder:text-xl border-2 rounded-lg outline-zinc-400 outline-1 mt-3"
+            className="h-60 bg-stone-100 w-3/5 contactInput text-base placeholder:px-2 placeholder:italic placeholder:text-xl border-2 rounded-lg outline-zinc-400 outline-1 mt-3"
             id="text"
             onChange={textHandler}
             onBlur={clickHandler}
             type="text"
             placeholder="Write something"
           />
-          <textarea
+          {/* <textarea
             class="
         form-control
         block
@@ -79,17 +79,18 @@ const ContactMe = () => {
             id="exampleFormControlTextarea1"
             rows="3"
             placeholder="Your message"
-          ></textarea>
+          ></textarea> */}
         </div>
         <div className="mt-5 grid place-items-center">
-          <button className="rounded-xl border-solid hover:bg-white w-2/12 h-12 font-bold text-xl hover:text-zinc-600 bg-zinc-600 text-white">
+          <button className="rounded-xl border-solid hover:bg-white  h-12 font-bold text-xl hover:text-zinc-600 bg-zinc-600 text-white">
             <a
+              className="p-2"
               style={isValid ? {} : { pointerEvents: "none" }}
               href={`mailto:${myMail}?subject=${subject || ""}&body=${
                 text || ""
               }`}
             >
-              Send email
+              Send mail
             </a>
           </button>
         </div>

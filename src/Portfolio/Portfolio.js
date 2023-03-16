@@ -5,7 +5,7 @@ import Github from "../Img/github.png";
 
 const Portfolio = () => {
   return (
-    <div className="w-full h-auto flex justify-evenly gap-6 pt-4 pb-4">
+    <div className="w-full portfolio h-auto flex justify-evenly gap-6 pt-4 pb-4">
       <div className="flex flex-col gap-3 text-center">
         <div className="bg-slate-300 p-0.5 rounded-xl grid place-items-center">
           <a target="_blank" href="https://tarikkoc-instagram.netlify.app">
@@ -35,7 +35,7 @@ const Portfolio = () => {
       </div>
       <div className="flex flex-col gap-3 text-center">
         <div className="bg-slate-300 p-0.5 rounded-xl grid place-items-center">
-          <a href="#">
+          <a href="https://tarikkoc-magic-card.netlify.app" target="_blank">
             <img
               className="w-36 h-48 rounded-xl hover:scale-110 hover:ease-in-out hover:duration-700"
               src={MagicCard}
@@ -43,7 +43,11 @@ const Portfolio = () => {
             />
           </a>
         </div>
-        <a href="#" className="font-sans text-blue-700 font-semibold">
+        <a
+          href="https://tarikkoc-magic-card.netlify.app"
+          target="_blank"
+          className="font-sans text-blue-700 font-semibold"
+        >
           Magic Card
         </a>
         <div>
