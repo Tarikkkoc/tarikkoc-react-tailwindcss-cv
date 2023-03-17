@@ -11,7 +11,7 @@ const AboutMe = () => {
         />
       </div>
       <div className="flex justify-center flex-col">
-        <h1 className="text-5xl mt-5 font-serif font-bold pb-5 text-slate-900">
+        <h1 className="text-5xl mt-5  font-bold pb-5  font-bold text-gray-600 font-sans my-2">
           Who am I?
         </h1>{" "}
         <br />
