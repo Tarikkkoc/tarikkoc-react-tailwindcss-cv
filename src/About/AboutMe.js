@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div className="w-full h-full md:grid md:grid-cols-2 p-4 gap-2 bg-blue-300 bg-cover">
+    <div className="w-full h-full md:grid md:grid-cols-2 p-4 gap-2 bg-stone-300 bg-cover">
       <div className="flex justify-center items-center">
         <img
           className=" h-[60%] rounded-3xl"

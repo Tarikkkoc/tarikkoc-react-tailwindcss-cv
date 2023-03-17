@@ -44,7 +44,7 @@ const ContactMe = () => {
   };
 
   return (
-    <div className="bg-stone-200 w-full h-full flex flex-col justify-center items-center p-2">
+    <div className="bg-stone-300 w-full h-full flex flex-col justify-center items-center p-2">
       <div className="mt-5 contactHeader text-6xl w-1/2 grid place-items-center font-bold text-gray-600 font-sans my-2">
         <h1>Contact</h1>
       </div>

@@ -9,7 +9,7 @@ import Portfolio from "./Portfolio/Portfolio";
 
 function App() {
   return (
-    <div className="App bg-rose-200">
+    <div className="App bg-stone-300">
       <Navbar />
       <Info />
       <AboutMe />
