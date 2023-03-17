@@ -23,16 +23,17 @@ const AboutMe = () => {
           Javascript, React.js, HTML and CSS frameworks.
         </p>
         <br />
-        <a
-          className="w-full grid place-items-center"
-          href="../docs/TkCv.pdf"
-          download
-          target="_blank"
-        >
-          <button className="cvBtn h-12 rounded-3xl sm:w-32 hover:bg-stone-800 hover:text-white bg-blue-600 text-white">
-            CV
-          </button>
-        </a>
+        <div className="w-full hireA">
+          <a
+            className="w-full hireA grid place-items-center h-12 rounded-3xl cvBtn"
+            href="https://www.linkedin.com/in/ahmet-tarık-koç-3b952a193/details/featured/1635520123984/single-media-viewer/?profileId=ACoAAC12U70BCbEQ1eqcMpXFS6mT_OUfSjKM5-8"
+            target="_blank"
+          >
+            <button className="cvBtn h-12 rounded-3xl sm:w-32 hover:bg-stone-800 hover:text-white bg-blue-600 text-white">
+              CV
+            </button>
+          </a>
+        </div>
       </div>
     </div>
   );

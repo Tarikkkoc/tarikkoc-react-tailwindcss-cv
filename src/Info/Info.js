@@ -16,8 +16,12 @@ const Info = () => {
           FRONTEND WEB DEVELOPER
         </p>
         <br />
-        <a href="https://github.com/Tarikkkoc" target="_blank">
-          <button className="w-full cvBtn h-12 rounded-3xl sm:w-32 hover:bg-stone-800 hover:text-white bg-blue-600 text-white">
+        <a
+          className="bg-white h-12 rounded-3xl sm:w-32 hover:bg-stone-800 hover:text-white bg-blue-600 text-white"
+          href="https://github.com/Tarikkkoc"
+          target="_blank"
+        >
+          <button className="w-full gitBtn h-12 rounded-3xl sm:w-32 hover:bg-stone-800 hover:text-white bg-blue-600 text-white">
             Github
           </button>
         </a>

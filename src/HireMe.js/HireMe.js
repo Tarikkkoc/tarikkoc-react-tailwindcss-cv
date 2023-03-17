@@ -23,7 +23,7 @@ const HireMe = () => {
         </p>
         <p className="font-sans text-2xl text-zinc-100">You can contact me</p>
       </div>
-      <div className="w-1/2 grid hire2 place-items-center">
+      <div className="flex  rounded-xl justify-center items-center pl-[25%] hire2 place-items-center">
         <button
           className="rounded-xl border-solid bg-white w-24 h-12 font-bold text-xl text-zinc-600 hover:bg-zinc-600 hover:text-white"
           onClick={clickHandler}
