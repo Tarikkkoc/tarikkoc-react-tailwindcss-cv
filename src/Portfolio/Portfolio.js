@@ -7,7 +7,7 @@ const Portfolio = () => {
   return (
     <div className="w-full portfolio h-auto flex justify-evenly gap-6 pt-4 pb-4">
       <div className="flex flex-col gap-3 text-center">
-        <div className="bg-slate-300 p-0.5 rounded-xl grid place-items-center">
+        <div className=" p-0.5 rounded-xl grid place-items-center">
           <a target="_blank" href="https://tarikkoc-instagram.netlify.app">
             <img
               className="w-36 h-48 rounded-xl hover:scale-110 hover:ease-in-out hover:duration-700"
@@ -34,7 +34,7 @@ const Portfolio = () => {
         </div>
       </div>
       <div className="flex flex-col gap-3 text-center">
-        <div className="bg-slate-300 p-0.5 rounded-xl grid place-items-center">
+        <div className="p-0.5 rounded-xl grid place-items-center">
           <a href="https://tarikkoc-magic-card.netlify.app" target="_blank">
             <img
               className="w-36 h-48 rounded-xl hover:scale-110 hover:ease-in-out hover:duration-700"
@@ -61,7 +61,7 @@ const Portfolio = () => {
         </div>
       </div>
       <div className="flex flex-col gap-3 text-center">
-        <div className="bg-slate-300 p-0.5 rounded-xl grid place-items-center">
+        <div className="p-0.5 rounded-xl grid place-items-center">
           <a href="https://github.com/Tarikkkoc" target="_blank">
             <img
               className="w-36 h-48 rounded-xl hover:scale-110 hover:ease-in-out hover:duration-700"
